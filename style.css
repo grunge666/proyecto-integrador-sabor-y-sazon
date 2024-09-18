@@ -1,3 +1,42 @@
 .imgLogo {
     width: 100%;
 }
+.Samuel{
+    font-weight: bold;
+}
+.Diego{
+    font-weight: bold;
+}
+.sebas
+{
+    font-weight: bold;
+}
+img{
+    width:15% ;
+    background-color: chartreuse;
+    border: 2px solid green;
+    box-shadow:1px 2px 11px 5px  green;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+.imgDiego{
+    width: 15%;
+    background-color: chartreuse;
+    border: 2px solid green ;
+    box-shadow:1px 2px 11px 5px  green
+}
+li
+{
+    border: solid 2px;
+    text-align: center;
+}
+body{
+    background-color: rgb(191, 224, 166);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
