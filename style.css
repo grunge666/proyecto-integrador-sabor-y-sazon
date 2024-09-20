@@ -1,56 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(images/logo.webp);
+    background-size: 35%;
+    background-position: right center;
+}
+
+header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 400px;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 5px;
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: black;
+    color: rgb(236, 114, 114);
+}
+
+header img {
+    width: 90px;
+    padding-right: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.h1 {
+    background-color: white;
+    border: 6px solid rgb(238, 198, 111);
+}
+
 img {
     display: block;
-    width:15%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bodySobre {
+    text-align: center;
 }
 
 .imgLogo {
     width: 40%;
 }
 
-.Samuel {
-    font-weight: bold;
-}
-
-.Diego {
-    font-weight: bold;
-}
-
-.sebas {
-    font-weight: bold;
-}
-
-.imgSamuel {
-    width: 15%;
-    background-color: chartreuse;
-    border: 2px solid green;
-    box-shadow:1px 2px 11px 5px  green;
+.contenidoPersonas p {
+    background-color: white;
+    border: 6px solid rgb(238, 198, 111);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .imgDiego {
-    width: 15%;
-    background-color: chartreuse;
-    border: 2px solid green ;
-    box-shadow:1px 2px 11px 5px  green
+    width: 2000px;
 }
 
-.imgSebas {
-    width: 15%;
+.contenidoPersonas img {
     background-color: chartreuse;
     border: 2px solid green ;
-    box-shadow:1px 2px 11px 5px  green
+    box-shadow:1px 2px 11px 5px  green;
+    width: 15%;
 }
 
-li {
+.contenidoPersonas li {
+    font-weight: bold;
+    font-size: larger;
     border: solid 2px;
-    text-align: center;
+    margin-top: 20px;
 }
 
-body {
-    background-color: rgb(191, 224, 166);
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
