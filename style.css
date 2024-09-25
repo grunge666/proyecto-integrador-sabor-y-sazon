@@ -78,24 +78,29 @@ img {
     width: 2000px;
 }
 
-.contenidoPersonas img {
-    margin-left: 50px;
-    background-color: chartreuse;
-    border: 2px solid green ;
-    box-shadow:1px 2px 11px 5px  green;
-    width: 15%;
-}
-
-.contenidoPersonas a {
-    text-align: center;
-}
-
 .contenidoPersonas li {
     font-weight: bold;
     font-size: larger;
     border: solid 2px;
     margin-top: 20px;
     color: yellow;
+}
+
+.contenidoPersonas p{
+    
+}
+
+.contenidoPersonas a {
+    display: inline-block;
+    margin: auto 100% auto auto;
+    background-color: chartreuse;
+    border: 2px solid green ;
+    box-shadow: 1px 2px 11px 5px  green;
+    width: 200px;
+}
+
+.contenidoPersonas img {
+    width: 100%;
 }
 
 .divSobre {
