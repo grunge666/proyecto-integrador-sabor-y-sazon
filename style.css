@@ -161,3 +161,21 @@ footer {
     padding: 30px;
     font-size: medium;
 }
+
+.slogan {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6347;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.highlight {
+    color: #ff4500;
+}
+
+.invitacion {
+    padding: 60px;
+}
